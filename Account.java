@@ -1,4 +1,4 @@
-package session3;
+package session4;
 
 import java.util.Scanner;
 
@@ -73,10 +73,10 @@ public class Account {
 			System.out.print("Enter Interest Rate:");
 			double tempRate=scan.nextDouble();
 			Saving svAcc=new Saving(accN,tempName,accB,tempRate);
-			System.out.println("Account name is :"+svAcc.getAccName());
-			System.out.println("Account balance is :"+svAcc.getAccBal());
-			System.out.println("Account number is :"+svAcc.getAccNo());
-			System.out.println("Interest Rate is:"+svAcc.getRateOfInt());
+			System.out.println("Account name is: "+svAcc.getAccName());
+			System.out.println("Account balance is: "+svAcc.getAccBal());
+			System.out.println("Account number is: "+svAcc.getAccNo());
+			System.out.println("Interest Rate is: "+svAcc.getRateOfInt());
 			
 			System.out.print("Enter account Name:");
 			tempName=scan.next();
@@ -87,9 +87,9 @@ public class Account {
 			System.out.print("Enter Interest Rate:");
 			tempRate=scan.nextDouble();
 			Current currAcc=new Current(accN,tempName,accB,tempRate);
-			System.out.println("Account name is :"+currAcc.getAccName());
-			System.out.println("Account balance is :"+currAcc.getAccBal());
-			System.out.println("Account number is :"+currAcc.getAccNo());
+			System.out.println("Account name is: "+currAcc.getAccName());
+			System.out.println("Account balance is: "+currAcc.getAccBal());
+			System.out.println("Account number is: "+currAcc.getAccNo());
 			System.out.println("Interest Rate is:"+currAcc.getRateOfInt());
 			
 		}
